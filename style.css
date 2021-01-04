@@ -328,3 +328,28 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
     top: 0.2em;
 }
 nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom { opacity: 1; }
+
+#info-box {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+#info-box ul {
+    list-style: none;
+}
+#info-box a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 0.5em 0;
+    transition: all 0.1s ease-out;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#info-box a:hover {
+    color: rgba(255,255,255,0.5);
+}
